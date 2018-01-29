@@ -5,4 +5,7 @@
  * E-mail: 43138199@qq.com
  */
 public class Test2 {
+    public static void main(String[] args) {
+        System.out.println("just the code whether or not submit to github remote origin");
+    }
 }
