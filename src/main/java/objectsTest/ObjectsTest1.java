@@ -3,7 +3,7 @@ package objectsTest;
 import java.util.Objects;
 
 /**
- * Author：Edison Hou.
+ * @Author：Hussein Chen.
  * Date：2017/6/13 22:32
  * phone:17621373690
  */
