@@ -13,20 +13,22 @@ public class ThreadTest1 {
         new Runnable() {
             @Override
             public void run() {
+                System.out.println("线程一启动");
                 for (int i = 0; i < 100; i++) {
                     a = a++;
+                    System.out.println(a);
                 }
-                System.out.println(a);
             }
         }.run();
 
         new Runnable() {
             @Override
             public void run() {
+                System.out.println("线程二启动");
                 for (int i = 0; i < 100; i++) {
                     a = a--;
+                    System.out.println(a);
                 }
-                System.out.println(a);
             }
         }.run();
 
